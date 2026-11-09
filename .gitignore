@@ -1,0 +1,37 @@
+﻿__pycache__/
+*.py[cod]
+venv/
+.venv/
+.env
+.ipynb_checkpoints/
+
+# Datasets
+Train/
+Test/
+Val/
+
+# Predictions
+predictions_v3/
+
+# Model checkpoints
+checkpoints/
+checkpoints_v2/
+checkpoints_v3/*
+!checkpoints_v3/best_model.pth
+
+# Generated results
+validation_results/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+
+# Secrets
+.env
+
+# Jupyter
+.ipynb_checkpoints/

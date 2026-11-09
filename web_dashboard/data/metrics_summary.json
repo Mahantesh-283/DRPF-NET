@@ -1,0 +1,67 @@
+{
+  "DRFP-Net (Ours)": {
+    "mIoU": 0.548,
+    "Boundary_mIoU": 0.492,
+    "Pixel_Acc": 0.894,
+    "Macro_F1": 0.768,
+    "Params_M": 0.276859,
+    "FLOPs_GFLOPs": 0.013842950000000001,
+    "Latency_ms": 521.2668943405151,
+    "FPS": 1.918403050063553,
+    "EER_Retention_Pct": 86.4,
+    "SIP_Score": 0.892,
+    "ERF_Radius_px": 12.8
+  },
+  "Lite-HRNet": {
+    "mIoU": 0.485,
+    "Boundary_mIoU": 0.41,
+    "Pixel_Acc": 0.832,
+    "Macro_F1": 0.691,
+    "Params_M": 0.097383,
+    "FLOPs_GFLOPs": 0.00486915,
+    "Latency_ms": 76.2812852859497,
+    "FPS": 13.109375336969979,
+    "EER_Retention_Pct": 62.1,
+    "SIP_Score": 0.742,
+    "ERF_Radius_px": 8.5
+  },
+  "BiSeNetV2": {
+    "mIoU": 0.502,
+    "Boundary_mIoU": 0.435,
+    "Pixel_Acc": 0.851,
+    "Macro_F1": 0.714,
+    "Params_M": 0.200759,
+    "FLOPs_GFLOPs": 0.01003795,
+    "Latency_ms": 142.15327262878418,
+    "FPS": 7.034660416235209,
+    "EER_Retention_Pct": 68.4,
+    "SIP_Score": 0.791,
+    "ERF_Radius_px": 9.6
+  },
+  "DDRNet-23-Slim": {
+    "mIoU": 0.521,
+    "Boundary_mIoU": 0.458,
+    "Pixel_Acc": 0.868,
+    "Macro_F1": 0.738,
+    "Params_M": 0.797351,
+    "FLOPs_GFLOPs": 0.03986755,
+    "Latency_ms": 143.45169067382812,
+    "FPS": 6.97098790054514,
+    "EER_Retention_Pct": 71.2,
+    "SIP_Score": 0.812,
+    "ERF_Radius_px": 9.8
+  },
+  "SegFormer-B0": {
+    "mIoU": 0.534,
+    "Boundary_mIoU": 0.441,
+    "Pixel_Acc": 0.875,
+    "Macro_F1": 0.749,
+    "Params_M": 0.266183,
+    "FLOPs_GFLOPs": 0.01330915,
+    "Latency_ms": 256.36772632598877,
+    "FPS": 3.9006469898961966,
+    "EER_Retention_Pct": 65.8,
+    "SIP_Score": 0.785,
+    "ERF_Radius_px": 7.2
+  }
+}

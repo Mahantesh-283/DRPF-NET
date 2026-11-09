@@ -1,0 +1,31 @@
+DRFP-NET VALIDATION EVALUATION
+===========================================================================
+
+Checkpoint: E:\DRPF\checkpoints_v2\epoch_039.pth
+Device: cuda
+
+Total images: 1669
+Rural images: 992
+Urban images: 677
+
+Pixel Accuracy: 5.325921%
+Mean IoU: 0.895708%
+Mean Dice/F1: 1.692190%
+
+Average inference time: 19.343466 ms
+FPS: 51.697045
+
+Parameters: 353,398
+Model size: 1.348106 MB
+MACs: 4.437386 G
+FLOPs: 8.874772 G
+
+PER CLASS
+---------------------------------------------------------------------------
+Background: IoU=0.012933%, Dice=0.025862%, Precision=0.067223%, Recall=0.016011%
+Building: IoU=0.000149%, Dice=0.000298%, Precision=95.815900%, Recall=0.000149%
+Road: IoU=0.000085%, Dice=0.000169%, Precision=15.662651%, Recall=0.000085%
+Water: IoU=6.067724%, Dice=11.441227%, Precision=6.138917%, Recall=83.954254%
+Barren: IoU=0.103809%, Dice=0.207402%, Precision=0.237989%, Recall=0.183783%
+Forest: IoU=0.085013%, Dice=0.169882%, Precision=0.773869%, Recall=0.095414%
+Agricultural: IoU=0.000245%, Dice=0.000489%, Precision=0.091410%, Recall=0.000245%
